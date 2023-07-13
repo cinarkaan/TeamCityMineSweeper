@@ -123,6 +123,7 @@ namespace Minesweeper.Tests
             Assert.Throws<FormatException>(ExceptionBody);     
         }
 
+
         private void ExceptionBody ()
         {
             const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ_?=)(/£#$%&/{*-+,.;:";
