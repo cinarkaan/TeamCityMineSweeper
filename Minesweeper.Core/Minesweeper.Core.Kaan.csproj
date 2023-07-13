@@ -4,18 +4,16 @@
     <TargetFramework>net6.0-windows</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <PlatformTarget>x64</PlatformTarget>
+    <Version>1.0.8</Version>
+	<Authors>CinarKaan</Authors>
+	<Company>TeamInternational</Company>
+    <IsPackable>true</IsPackable> 
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.5.0" />
+	  <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.5.0" />
     <PackageReference Include="NUnit" Version="3.13.3" />
     <PackageReference Include="NUnit3TestAdapter" Version="4.4.2" />
   </ItemGroup>
 
-	<ItemGroup>
-		<ProjectReference Include="..\Minesweeper.Core\Minesweeper.Core.Kaan.csproj" />
-	</ItemGroup>
-	
 </Project>
-

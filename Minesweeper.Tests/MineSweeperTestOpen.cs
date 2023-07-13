@@ -123,10 +123,9 @@ namespace Minesweeper.Tests
             Assert.Throws<FormatException>(ExceptionBody);     
         }
 
-
         private void ExceptionBody ()
         {
-            const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ_?=)(/£#$%&/{*-+,.;:";
+            const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ_?=)(/£#$%&/{*-+,.;|:";
             char selected = Enumerable.Repeat(chars, chars.Length).Select(s => s[_random.Next(s.Length)]).ToList().ElementAt(0);
             Console.WriteLine(selected);
             _gameProcessor.Open(int.Parse(selected.ToString()), int.Parse(selected.ToString()));
