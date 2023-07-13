@@ -120,7 +120,7 @@ namespace Minesweeper.Tests
         [Test]
         public void EnterAnyInputExceptIntegerValue ()
         {
-            Assert.Throws<FormatException>(ExceptionBody);    
+            Assert.Throws<FormatException>(ExceptionBody);     
         }
 
         private void ExceptionBody ()
