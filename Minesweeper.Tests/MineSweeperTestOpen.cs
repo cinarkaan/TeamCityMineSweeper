@@ -116,7 +116,7 @@ namespace Minesweeper.Tests
                 Assert.AreEqual(state, GameState.Lose);
         }
 
-        // If we enter any value except integer , program must throw argumentexception
+        // If we enter any value except integer , the program must throw argumentexception
         [Test]
         public void EnterAnyInputExceptIntegerValue ()
         {
