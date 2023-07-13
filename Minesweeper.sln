@@ -5,9 +5,9 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minesweeper.Console", "Minesweeper.Console\Minesweeper.Console.csproj", "{F00F272B-E078-4020-AFB1-72A3092F6114}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minesweeper.Core", "Minesweeper.Core\Minesweeper.Core.csproj", "{2397A273-9698-41A9-9FD3-06D883763BEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minesweeper.Core.Kaan", "Minesweeper.Core\Minesweeper.Core.Kaan.csproj", "{2397A273-9698-41A9-9FD3-06D883763BEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minesweeper.Tests", "Minesweeper.Tests\Minesweeper.Tests.csproj", "{ABBBC65D-1BEA-44FF-9115-E82787561293}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minesweeper.Tests", "Minesweeper.Tests\Minesweeper.Tests.csproj", "{ABBBC65D-1BEA-44FF-9115-E82787561293}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

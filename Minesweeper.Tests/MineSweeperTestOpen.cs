@@ -116,7 +116,7 @@ namespace Minesweeper.Tests
                 Assert.AreEqual(state, GameState.Lose);
         }
 
-        // If we enter any value except integer , program must throw argumentexception
+        // If we enter any value except integer , the program must throw argumentexception
         [Test]
         public void EnterAnyInputExceptIntegerValue ()
         {
@@ -125,7 +125,7 @@ namespace Minesweeper.Tests
 
         private void ExceptionBody ()
         {
-            const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ_?=)(/£#$%&/{*-+,.;:";
+            const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ_?=)(/£#$%&/{*-+,.;|:";
             char selected = Enumerable.Repeat(chars, chars.Length).Select(s => s[_random.Next(s.Length)]).ToList().ElementAt(0);
             Console.WriteLine(selected);
             _gameProcessor.Open(int.Parse(selected.ToString()), int.Parse(selected.ToString()));
